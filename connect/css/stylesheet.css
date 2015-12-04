@@ -1,0 +1,28 @@
+body {
+  font-family:'Times New Roman', sans-serif;
+  color: black;
+  text-align: center;
+}
+
+.row {
+  width: 565px;
+  height: 85px;
+  margin: 0 auto;
+  background-color: yellow;
+}
+
+.cell {
+
+	width: 80px;
+	height: 80px;
+	background-color: white;
+	-moz-border-radius: 80px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+  float: left;
+}
+
+
+.cell:hover {
+  background: #FF6666
+}
